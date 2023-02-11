@@ -1,34 +1,27 @@
 Usage
 =====
 
-.. _installation:
-
-Installation
+Signing up
 ------------
 
-To use Lumache, first install it using pip:
+To use Doppledata for the first time, first sign up by visitng the website https://www.doppledata.com and clicking on "Get Started"
 
-.. code-block:: console
-
-   (.venv) $ pip install lumache
-
-Creating recipes
+Choosing a Plan
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+When you click on "Get Started" you will see the pricing page. 
 
-.. autofunction:: lumache.get_random_ingredients
+You can compare what's on offer across the three plans - free, pro and enterprise. 
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+If you choose the **free** plan, you will see the option to sign up.
 
-.. autoexception:: lumache.InvalidKindError
+If you choose the **pro** plan, you will see the option to sign up and then be taken to the Stripe checkout page.
 
-For example:
+If you choose the **enterprise** plan, you will have to reach out to us and we'll help set you up for unlimited usage.
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+Using the App
+--------------
 
+After sign up, you will arrive at the main page for the app. 
+
+On subsequent visits, you can just click on sign in and it should take you directly to this page.
