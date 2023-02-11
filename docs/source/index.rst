@@ -8,6 +8,7 @@ Contents
 
 .. toctree::
 
+   usage
    upload
    create
    free
