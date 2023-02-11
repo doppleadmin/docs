@@ -1,4 +1,4 @@
-Welcome to Doppledata documentation!
+Doppledata documentation
 ===================================
 
 **Doppledata** is a web app that allows you to generate synthetic data.
