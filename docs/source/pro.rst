@@ -1,4 +1,0 @@
-Pro
-=====
-
-The Pro plan 
