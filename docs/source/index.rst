@@ -13,3 +13,5 @@ Contents
    usage
    upload
    create
+   api
+   examples
