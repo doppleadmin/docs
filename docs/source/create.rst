@@ -1,27 +1,21 @@
-Usage
+Create
 =====
 
-Signing up
-------------
+Choose the create option if you do not have any source data but have some idea in mind on what to generate.
 
-To use Doppledata for the first time, first sign up by visitng the website https://www.doppledata.com and clicking on "Get Started"
+1. Click on **CREATE TABLE**. 
 
-Choosing a Plan
-----------------
+You will see an empty table that you need to fill up. 
 
-When you click on "Get Started" you will see the pricing page. 
+At the least you need to fill up the header row with the column names of the data you want to generate. This is the minimum requirement for zero shot synthesis to work.
 
-You can compare what's on offer across the three plans - free, pro and enterprise. 
+If you enter one or more rows of example data as well, this will ensure the data fits closer to the examples you have defined. But this is not mandatory.
 
-If you choose the **free** plan, you will see the option to sign up.
+2. Choose how many rows of synthetic data to generate (Keep an eye on your daily quota in the bottom right of the screen, the quota resets at 00:00 UTC)
 
-If you choose the **pro** plan, you will see the option to sign up and then be taken to the Stripe checkout page.
+3. Click on **SYNTHESIZE**
 
-If you choose the **enterprise** plan, you will have to reach out to us and we'll help set you up for unlimited usage.
+4. In a few seconds, the table will update to show the generated synthetic data and you will see a **DOWNLOAD** button that allows you to download the generated file as a CSV
 
-Using the App
---------------
+5. If you would like to try again, click on **BACK**
 
-After sign up, you will arrive at the main page for the app. 
-
-On subsequent visits, you can just click on sign in and it should take you directly to this page.
