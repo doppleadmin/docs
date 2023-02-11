@@ -13,6 +13,3 @@ Contents
    usage
    upload
    create
-   free
-   pro
-   enterprise
